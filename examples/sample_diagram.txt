@@ -1,0 +1,9 @@
+graph TD
+    subgraph Sample Group
+        A[Start] -- Initiates --> B[Process]
+        B -- "Metrics" --> C[End]
+    end
+
+    style A fill:#aaf,stroke:#333,stroke-width:2px
+    style B fill:#faa,stroke:#000,stroke-width:2px
+    style C fill:#afa,stroke:#333,stroke-width:2px

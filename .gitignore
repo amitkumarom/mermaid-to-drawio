@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.pyc
+*.pyo
+*.drawio.bak
+*.DS_Store
+.venv/
+.env/
 # C extensions
 *.so
 
