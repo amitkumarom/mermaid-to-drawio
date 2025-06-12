@@ -25,20 +25,20 @@ mermaid-to-drawio/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-
+```
 💻 Usage
 
-1. Install Requirements:
+## 1. Install Requirements:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-2. Run the Script
+## 2. Run the Script
 python mermaid_to_drawio/converter.py examples/sample_diagram.txt
 # or with a custom output name:
 python mermaid_to_drawio/converter.py examples/sample_diagram.txt -o my_diagram.drawio
 
-3. 🧪 Testing
+## 3. 🧪 Testing
 
 Example with pytest:
 
