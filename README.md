@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```bash 
 python mermaid_to_drawio/converter.py examples/sample_diagram.txt
 ```
-# or with a custom output name:
+or with a custom output name:
 ```bash
 python mermaid_to_drawio/converter.py examples/sample_diagram.txt -o my_diagram.drawio
 ```
